@@ -10,6 +10,7 @@
     You are going to write a program that does the work of Sorting Hat.
 
 ### TODO items
-1. Create a new Java project called `sorting-hat`.
-2. Copy and replace the folder `src` from the folder `1. sorting-hat` into your newly created project.
-3. Complete the TODOs mentioned in the `Main.java`.
+1. Each activity will build small part of the project, that is why you will see folders like `sorting-hat-1`, `sorting-hat-2`etc.
+2. Create a new Java project called `sorting-hat`.
+3. Copy and replace the folder `src` from the folder `sorting-hat-1` into your newly created project.
+4. Complete the TODOs mentioned in the `Main.java`.
