@@ -1,12 +1,10 @@
 import java.util.Scanner;
 
 public class Main {
-    // From the previous activity you can see we are successfully able to store student house information and display it.
-    // But the information that is displayed is just a bunch of houses. We don't know which student belongs to which
-    // house. In this activity we will gather more information.
     public static void main(String[] args) {
         String studentPersonality;
-        // TODO 1: Create two string variables firstName and lastName. These will be used to store student's name.
+        String firstName;
+        String lastName;
         boolean isMuggleBorn;
         boolean isContinue;
         int studentCount;
@@ -20,9 +18,11 @@ public class Main {
         String[] students = new String[studentCount];
 
         do {
-            // TODO 2: use sout to get student's first name and make use of firstName variable to store the input.
+            System.out.println("Enter student's first name:");
+            firstName = scanner.next();
 
-            // TODO 2: use sout to get student's last name and make use of lastName variable to store the input.
+            System.out.println("Enter student's last name:");
+            lastName = scanner.next();
 
             System.out.println("Enter student personality from the following:");
             System.out.println("daring, bold, ambitious, determined, clever, wise");
@@ -34,11 +34,7 @@ public class Main {
             String house = sortIntoHouse(studentPersonality, isMuggleBorn);
             System.out.println("You belong in " + house + "!!!");
 
-            // TODO 3: update this to store first and last name with the house.
-            // HINT: we have to use String concatenation here.
-            // More info here: https://www.javatpoint.com/string-concatenation-in-java.
-            // Use "+" operator
-            students[index] = house;
+            students[index] = firstName + " " + lastName + " - " + house;
             index++;
 
             System.out.println("Do you wish to continue sorting another student? (true/false)");
