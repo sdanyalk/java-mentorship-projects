@@ -16,7 +16,7 @@ public class Main {
         }
         // TODO 3. Update the IF statement based on:
         //      If the student is ambitious or determined, print "You belong in Slytherin!!!"
-        else if (studentPersonality == ambitious || studentPersonality == determined) {
+        else if (studentPersonality == ambitious) {
             System.out.println("You belong in Slytherin!!!");
         }
         // TODO 4. Update the IF statement based on:
