@@ -9,17 +9,21 @@ public class Activity {
     // If everything was solved correctly, the tests should pass.
     public int sum(int a, int b) {
         // TODO 1 - this should return the sum of two numbers.
+        return -1;
     }
 
     public int subtract(int a, int b) {
         // TODO 1 - this should return the difference of two numbers.
+        return -1;
     }
 
     public int multiply(int a, int b) {
         // TODO 1 - this should return the product of two numbers.
+        return -1;
     }
 
     public int divide(int a, int b) {
         // TODO 1 - this should return the division of two numbers.
+        return -1;
     }
 }
