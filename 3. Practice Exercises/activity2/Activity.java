@@ -11,10 +11,12 @@ public class Activity {
     public float convertToCelsius(float temperatureInFahrenheit) {
         // TODO 1 - Complete the method by using the formula to convert to Celsius
         // Formula is: Temperature in Celcius = (Temperature in Fahrenheit - 32) x 5/9
+        return -1F;
     }
 
     public float convertToFahrenheit(float temperatureInCelsius) {
         // TODO 2 - Complete the method by using the formula to convert to Fahrenheit
         // Formula is: Temperature in Fahrenheit = (Temperature in Celcius x 9/5) + 32
+        return -1F;
     }
 }
